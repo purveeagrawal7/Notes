@@ -1,0 +1,21 @@
+Q: In which Case shoud you use callback in React setState?
+A: If you want to perform an action just after changing the state, you would like to use the call back, because setState works asynchronously,
+this.state variable is not immediately changed. In such cases, the callback in setState could be used. For example I have used the callback
+in the repository fetchRicePuppyRecepie.
+
+Q: What exactly is a middleware in Express js?
+A: Middleware is just some code that transforms the incoming request.
+
+Q: What are POJOs and JAVA Beans?
+A: 
+POJO: These are plain old java objects. It has no restrictions like requiring constructors, requiring annotations,
+using any specific access-modifiers. They are easy to read and understand and increases the reusability of a program. 
+POJO is an object which encapsulates Business Logic. Source: https://www.geeksforgeeks.org/pojo-vs-java-beans/
+
+JAVA Beans: Beans are special type of POJOs. They have some restrictions like:
+  -Fields should be private. This is to provide the complete control on fields.
+  -Fields should have getters or setters or both.
+  -A no-arg constructor should be there in a bean.
+  -Fields are accessed only by constructor or getter setters.
+  -They should implement Serializable interface.
+All JavaBeans are POJOs but not all POJOs are JavaBeans.
