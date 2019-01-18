@@ -1,7 +1,7 @@
 Q: In which Case shoud you use callback in React setState?
 A: If you want to perform an action just after changing the state, you would like to use the call back, because setState works asynchronously,
 this.state variable is not immediately changed. In such cases, the callback in setState could be used. For example I have used the callback
-in the repositor fetchRicePuppyRecepie.
+in the repository fetchRicePuppyRecepie.
 
 Q: What exactly is a middleware in Express js?
 A: Middleware is just some code that transforms the incoming request.
